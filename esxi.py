@@ -1,4 +1,6 @@
 #!/usr/bin/python
+# Written by Mike Partain to help with starting and stopping a home ESXi LAB server
+
 from wakeonlan import wol
 import time, argparse, paramiko
 
